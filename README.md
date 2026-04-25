@@ -1,10 +1,10 @@
-# 🎹 KeyPiano
+# KeyPiano - Web Piano 
 
 **KeyPiano** is a professional-grade, browser-based hybrid grand piano. It transforms your computer keyboard into a fully functional 48-key virtual instrument, combining the authentic acoustic texture of real grand piano samples with the precision of physical modeling synthesis.
 
 ---
 
-## 🌟 Features
+## Features
 
 *   **Hybrid Audio Engine (90/10 Layering)**:
     *   **90% Acoustic Samples**: Uses high-fidelity **Salamander Grand Piano** samples (Yamaha C5) for authentic hammer strikes and wooden decay.
@@ -17,7 +17,7 @@
 
 ---
 
-## ⌨️ Keyboard Layout
+## Keyboard Layout
 
 KeyPiano uses a unique "Two-Tier" system to map 48 piano keys to your QWERTY keyboard without any overlaps:
 
@@ -34,7 +34,7 @@ KeyPiano uses a unique "Two-Tier" system to map 48 piano keys to your QWERTY key
 
 ---
 
-## 🚀 Running Locally
+## Running Locally
 
 Because KeyPiano relies on the Web Audio API and external CDNs for high-fidelity assets, it must be run on a local development server (opening the HTML file directly in the browser may cause CORS issues).
 
@@ -52,7 +52,7 @@ Because KeyPiano relies on the Web Audio API and external CDNs for high-fidelity
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 *   **HTML5 / CSS3**: Responsive, dark-mode UI with a "glassmorphism" aesthetic.
 *   **Vanilla JavaScript (ES6 Modules)**: Complete separation of concerns (UI, Audio Engine, Recorder).
